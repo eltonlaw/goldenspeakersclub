@@ -1,0 +1,55 @@
+/* 
+
+============================
+		RESOURCES CSS
+============================
+
+*/
+.container {
+	padding-bottom: 1em;
+}
+
+.resource-img {
+	height: 15em;
+	width: 100%;
+}
+
+section h3 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	font-family: Helvetica;
+	color: #333;
+	font-size: 1.1em;
+	margin:auto;
+	margin-bottom: 1%;
+}
+
+section hr {
+	border-color: yellow;
+	width: 80%;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+section a .title {
+	color: black;
+	display: block;
+}
+
+@media (max-width: 768px) {
+	.resource-block {
+		width: 90%;
+		margin-bottom: 5%;
+	}
+	.resource-img {
+		height: 30%;
+	}
+}
+
+
+
+
+

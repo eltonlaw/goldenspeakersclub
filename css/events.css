@@ -1,0 +1,171 @@
+/* 
+
+============================
+		EVENTS CSS
+============================
+
+*/
+.hr {
+	border: 0;
+    background-image: linear-gradient(to right, rgba(40, 40, 40, 0), rgba(40, 40, 40, 0.75), rgba(40, 40, 40, 0));
+	height: 0.1em;
+	width: 30em;
+	margin: auto;
+	margin-top: 2em;
+}
+.no-pointer {
+	cursor: default;
+}
+
+.title {
+	font-size: 4em;
+	font-weight: 700;
+	color: #333;
+	letter-spacing: -0.05em;
+	font-family: Arial;
+}
+.title-caption {
+	font-size: 1.5em;
+	font-family: Arial;
+	color: #777;
+}
+
+#events-info {
+	width:95%;
+	margin: auto;
+	text-align: center;
+	background-color: #eee;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+.updateBox{
+	position: relative;
+}
+
+.update {
+	display: inline-block;
+	width: 25em;
+	vertical-align: top;
+	height:25em;
+	text-align: middle;
+}
+
+.goldentalks {
+	background-image: url("../img/events/gt.gif");
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+.bootcamp {
+	background-image: url("../img/events/bootcamp.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: 100%
+}
+
+
+#calendar iframe {
+	display: block;
+	margin: 1.5% auto;
+	border-width: 0;
+	height: 40em;
+	width: 95%;
+}
+
+.mask {
+	position: absolute;
+	z-index: 100;
+	width: 25em;
+	text-align: middle;
+	background: linear-gradient(45deg, #EFDF73 0%,#fbdd0d 100%);
+	opacity: 0.9;
+	height: 100%;
+	border-radius: 1em;
+}
+
+.remove-link-color {
+	color: #333;
+}
+
+.masktext { 
+	position: absolute;
+	top: 8.5em;
+	width: 100%;
+	background-color: white;
+	font-weight: 700;
+	padding: 1.5em 0;
+}
+/* ADD THIS CLASS IF THERE'S AN EXTRA LINE IN THE DESCRIPTION*/
+.extra-line-fix {
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+}
+
+.mask:hover{
+	opacity: 0;
+	-webkit-transition: opacity 0.8s;
+}
+
+.wrapper {
+	width: 95%;
+	height: 408px;
+	overflow-x: scroll;
+
+	text-align: left;
+	margin: auto;
+}
+
+.inner {
+	width: 3000px;
+}
+
+.inner .image {
+	width: 734px;
+	height: 392px;
+	display: inline-block;
+}
+	#leanne {
+		background: url("../img/events/leanne.jpg");
+		background-size: 100%;
+	}
+	#carson2 {
+		background: url("../img/events/carson2.jpg");
+		background-size: 100%;
+	}
+	#carson {
+		background: url("../img/events/carson.png");
+	}
+
+	#info_sesh1 {
+		background: url("../img/events/infosesh1.png");
+	}
+
+.description {
+	position: relative;
+	top: 91.3%;
+	margin: auto;
+	background: linear-gradient(45deg, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.2) 100%);
+	text-align: center;
+	color: white;
+	padding: 0.5em 0;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  opacity: 0.5;
+  background-image: url("../img/events/arrows.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+
+

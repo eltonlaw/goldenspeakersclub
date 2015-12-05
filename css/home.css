@@ -1,0 +1,36 @@
+/* 
+
+============================
+		HOME CSS
+============================
+
+*/
+#carouselSection {
+	background-color: #FFF7F4;
+}
+#carouselContainer {
+	width: 95%;
+}
+
+#background {
+	width: 100%;
+	height: 100em;
+	background: url("../img/zap.png") no-repeat center;
+	background-size: 100% 100%;
+}
+
+#carousel-example-generic {
+	margin-top: 1.5em;
+}
+
+#carouselSection .carousel-control {
+	background: transparent;
+}
+
+#carouselSection .item img {
+	width: 100%;
+	height: 40em;
+	border-radius: 1em;
+}
+
+

@@ -1,0 +1,111 @@
+/* 
+
+
+/* 
+
+============================
+		TEMPLATE CSS
+============================
+
+*/
+ul {
+	list-style-type: none;
+}
+
+html {
+	overflow-x: hidden;
+	zoom: 100%;
+}
+
+.navbar {
+	font-family: Garamond;
+	font-size: 1.2em;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+#mobile-nav {
+	margin-top: 0.5em;
+}
+
+.fixed-right {
+	position: absolute;
+	right: 1%;
+}
+
+.collapse .moveleft {
+	margin-left: 3%;
+}
+
+.whiteBG {
+	background: white
+}
+
+#logo {
+	width: 2.5em;
+	position: absolute;
+	top: 6%;
+	left:1%;
+}
+
+#body .navbar {
+	margin-bottom: 0% 
+}
+
+.navbar-collapse ul {
+	width: 100%;
+}
+
+.navbar-collapse li {
+	width: 16%;
+}
+
+footer .container{
+	padding: 0.8% 0;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+footer {
+	border-top: thin #999;
+	width: 100%;
+	clear: both;
+}
+
+#footer .navbar{
+	margin-bottom: 0;
+	height: 4.3em;
+}
+
+.smBar {
+	position: relative;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.smBar .socialMedia{
+	display: inline-block;
+}
+
+.smBar .socialMedia img {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 0.2em;
+	opacity: 0.7;
+}
+
+.socialMedia img:hover {
+	opacity: 1;
+}
+
+#navbar-collapse-1 {
+	width: 86%;
+	border-color: transparent;
+}
+
+.navbar-collapse .width100 {
+	width:100%;
+}

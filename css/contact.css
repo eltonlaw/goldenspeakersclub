@@ -1,0 +1,116 @@
+/*
+
+================
+CONTACT CSS
+================
+
+*/
+
+.title {
+	font-family: Arial;
+	text-align: center;
+}
+
+.box {
+	position: relative;
+	top: 5%;
+}
+
+h1 {
+	font-size: 4em;
+	letter-spacing: -0.05em;
+	color: #333;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #777;
+}
+
+iframe {
+	margin: auto;
+	width: 100%;
+	height: 52em;
+}
+.contactBar {
+	padding-left: 0;
+	width: 81em;
+	margin: auto;
+	position: relative;
+	top: 20%;
+}
+
+.contactItem {
+	width: 20em;
+	display: inline-block;
+}
+
+.contactItem a:hover {
+	text-decoration: none;
+	color: #222;
+}
+
+.contactItem a {
+	color: #222;
+}
+
+.holder .glyphicon{
+	font-size: 4.6em;
+	color: white;
+	padding: 0.6em;
+	border-radius: 5em;
+	background-color: #fbdd0d;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: 0%;
+	left: 25%
+}
+
+.holder .icon {
+	background-color: #fbdd0d;
+	width: 10em;
+	padding: 1.8em;
+	border-radius: 50em;
+	position: relative;
+	left: 25%;
+	top: 0%;
+}
+
+.holder {
+	background-color: #eee;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	border-radius: 1em;
+	margin-bottom: 1em;
+}
+
+/* MAILCHIMP */
+
+#mc_embed_signup {
+	background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width: 70%; 
+    margin: 2em auto; 
+}
+
+#mc_embed_signup h1 {
+	font-size: 1.5em;
+}
+
+.lightGray {
+	color: #777;
+}
+
+#mc_embed_signup #mc-embedded-subscribe {
+	background-color: #fbdd0d;
+}
+
+
+
+
+
+
